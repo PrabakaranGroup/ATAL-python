@@ -2,8 +2,14 @@
 
 # script to install required software dependencies for course
 
-sudo apt-get update
-sudo apt-get upgrade
+apt-get update
+apt-get upgrade
 
-sudo apt-get install jupyter
+apt-get install -y python3-matplotlib
+apt-get install -y python3-scipy
+apt-get install -y python3-pandas
+apt-get install -y python3-plotly
 
+pip3 install --upgrade pip 
+
+apt-get clean
