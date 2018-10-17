@@ -1,0 +1,8 @@
+book_filename: "book"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: ""
+new_session: yes
+output_dir: ../docs
+

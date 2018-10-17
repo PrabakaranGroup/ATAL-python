@@ -1,0 +1,22 @@
+[
+["index.html", "Introduction to computer science and programming in python 1 What is computation? 1.1 Problem set 0", " Introduction to computer science and programming in python Materials from MIT course 6.0001 by Ana Bell, Eric Grimson &amp; John Guttag. 2018-10-17 1 What is computation? 1.1 Problem set 0 Write a program that does the following in order: Asks the user to enter a number “x” Asks the user to enter a number “y” Prints out number “x”, raised to the power “y” Prints out the log (base 2) of “x” Save your code in a file named ‘ps0.py’. An example of an interaction with your program is shown below: Enter a number x: 2 Enter a number y: 3 x**y = 8 log(x) = 1 Hints: To see how to use the print command, you may find it convenient to look at the input and output of the Python Wikibook. To see how to read input from a user’s console into the Python environment, you may find it convenient to look at the same section (see for example the input() function). Reference the basic math section of the Python Wikibook to read more about using basic mathematical operators in Python To take the logarithm of a variable, import either of the numpy or pylab packages. You can then call either numpy.log2 or pylab.log2 to calculate the logarithm. See the Getting Started document on importing packages and the many Numpy examples online for more info. Googling the log2 function may take you here, which has some helpful info. Remember that if you want to hold onto a value, you need to store it in a variable (i.e., give it a name to which you can refer when you want that value). You may find it convenient to look at the variables and strings section of the Python Wikibook. (As you read through, remember that in Python 3.x you should be using input() not raw_input()). Take a look at the “Combining Numbers and Strings” sub-section, because you will be working with numbers and strings in this problem and will have to convert between the two using the str() and int() functions. "],
+["branch-iterate.html", "2 Branching and iteration", " 2 Branching and iteration Here is a review of existing methods. "],
+["strings-etc.html", "3 String manipulation, guess and check, approximations, bisection", " 3 String manipulation, guess and check, approximations, bisection We describe our methods in this chapter. "],
+["decomp-abstract-func.html", "4 Decomposition, abstractions, functions", " 4 Decomposition, abstractions, functions "],
+["tuples-etc.html", "5 Tuples, lists, aliasing, mutability, cloning", " 5 Tuples, lists, aliasing, mutability, cloning "],
+["recursion-dictionaries.html", "6 Recursion, dictionaries", " 6 Recursion, dictionaries "],
+["testing.html", "7 Testing, Debugging, Exceptions, Assertions", " 7 Testing, Debugging, Exceptions, Assertions "],
+["oop.html", "8 Object oriented programming", " 8 Object oriented programming "],
+["classes-inheritance.html", "9 Python classes and inheritance", " 9 Python classes and inheritance "],
+["efficiency1.html", "10 Understanding program efficiency, part 1", " 10 Understanding program efficiency, part 1 "],
+["efficiency2.html", "11 Understanding program efficiency, part 2", " 11 Understanding program efficiency, part 2 "],
+["searching-sorting.html", "12 Searching and sorting", " 12 Searching and sorting "],
+["resources.html", "A Resources A.1 Learning python", " A Resources A.1 Learning python "],
+["raspberry-pi-setup.html", "B Setup Raspberry Pi", " B Setup Raspberry Pi "],
+["sol-ps0.html", "C Solutions to problem set 0", " C Solutions to problem set 0 "],
+["sol-ps1.html", "D Solutions to problem set 1", " D Solutions to problem set 1 "],
+["sol-ps2.html", "E Solutions to problem set 2", " E Solutions to problem set 2 "],
+["sol-ps3.html", "F Solutions to problem set 3", " F Solutions to problem set 3 "],
+["sol-ps4.html", "G Solutions to problem set 4", " G Solutions to problem set 4 "],
+["sol-ps5.html", "H Solutions to problem set 5", " H Solutions to problem set 5 "]
+]

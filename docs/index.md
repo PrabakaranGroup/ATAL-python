@@ -1,0 +1,41 @@
+--- 
+title: "Introduction to computer science and programming in python"
+subtitle: "Materials from [MIT course 6.0001](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm) by Ana Bell, Eric Grimson & John Guttag."
+#author: "Yihui Xie"
+date: "2018-10-17"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Course book for ATAL python course"
+---
+
+# What is computation?
+
+
+
+## Problem set 0
+Write a program that does the following in order:
+
+1. Asks the user to enter a number "x"
+2. Asks the user to enter a number "y"
+3. Prints out number "x", raised to the power "y"
+4. Prints out the log (base 2) of "x"
+
+Save your code in a file named 'ps0.py'. An example of an interaction with your program is shown below:
+```
+Enter a number x: 2
+Enter a number y: 3
+x**y = 8
+log(x) = 1
+```
+
+**Hints:**
+
+* To see how to use the ```print``` command, you may find it convenient to look at the [input](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Hello,_World) and [output](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Who_Goes_There%3F) of the [Python Wikibook](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3).
+* To see how to read input from a user's console into the Python environment, you may find it convenient to look at the same section (see for example the ```input()``` function).
+* Reference the [basic math section](https://en.wikibooks.org/wiki/Python_Programming/Basic_Math) of the Python Wikibook to read more about using basic mathematical operators in Python
+* To take the logarithm of a variable, import either of the numpy or pylab packages. You can then call either numpy.log2 or pylab.log2 to calculate the logarithm. See the Getting Started document on importing packages and the many Numpy [examples](wiki.scipy.org/Numpy_Example_List) online for more info. Googling the log2 function may take you [here](https://docs.scipy.org/doc/numpy/reference/generated/numpy.log2.html), which has some helpful info.
+* Remember that if you want to hold onto a value, you need to store it in a variable (i.e., give it a name to which you can refer when you want that value). You may find it convenient to look at the [variables and strings section](https://en.wikibooks.org/wiki/Python_Programming/Variables_and_Strings) of the Python Wikibook. (As you read through, remember that in Python 3.x you should be using ```input()``` not ```raw_input()```). Take a look at the “[Combining Numbers and Strings](https://en.wikibooks.org/wiki/Python_Programming/Variables_and_Strings#Combining_Numbers_and_Strings)” sub-section, because you will be working with numbers and strings in this problem and will have to convert between the two using the ```str()``` and ```int()``` functions.
+
