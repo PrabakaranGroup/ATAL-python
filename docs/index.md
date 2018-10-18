@@ -1,8 +1,8 @@
 --- 
 title: "Introduction to computer science and programming in python"
-subtitle: "Materials from [MIT course 6.0001](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm) by Ana Bell, Eric Grimson & John Guttag."
+subtitle: "Materials adapted from [MIT course 6.0001](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm) by Ana Bell, Eric Grimson & John Guttag."
 #author: "Yihui Xie"
-date: "2018-10-17"
+date: "2018-10-18"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -13,7 +13,45 @@ description: "Course book for ATAL python course"
 
 # What is computation?
 
+```python
+pi = 3.14159
+radius = 2.2
+# area of circle equation <- this is a comment
+area = pi*(radius**2)
+print(area)
+```
 
+```
+## 15.2052956
+```
+
+Change values of radius and use comments to help other understand what you are doing in code:
+
+```python
+radius = radius + 1
+print(area)     # area doesn't change
+```
+
+```
+## 15.2052956
+```
+
+```python
+area = pi*(radius**2)
+print(area)
+```
+
+```
+## 32.1698816
+```
+
+
+
+## Using Thonny
+
+Commenting lines
+
+Autocomplete
 
 ## Problem set 0
 Write a program that does the following in order:
